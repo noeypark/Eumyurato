@@ -37,3 +37,8 @@
     background-color: #b7c2df;
     border: 2px solid #b7c2df;
 }
+.custom-table-container {
+    max-width: 1500px; /* 원하는 최대 너비 값으로 변경 */
+    width: 100%; /* 부모 요소의 너비에 맞춤 */
+    margin: 0 auto; /* 가운데 정렬을 위한 마진 설정 */
+}

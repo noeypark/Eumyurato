@@ -101,10 +101,10 @@
         <!--begin::Aside-->
         <!--begin::Content-->
         <!--메인폼-->
-        <div class="login-content flex-lg-row-fluid d-flex flex-column overflow-hidden py-10 py-lg-20 px-10 p-lg-7 mx-auto mw-1000px w-100" style="display: flex">
+        <div class="login-content flex-lg-row-fluid d-flex flex-column overflow-hidden py-10 py-lg-20 px-10 p-lg-7 mx-auto mw-1500px w-100" style="display: flex">
             <!--begin::Wrapper-->
             <!--begin::Signin Form-->
-            <div class="form w-1000px h-1000px  needs-validation text-center" id="kt_login_signin_form" novalidate>
+            <div class="form w-1500px h-1500px  needs-validation text-center" id="kt_login_signin_form" novalidate>
                 <div style="color:#000000; background-color:#FFFFFF; padding:25px;  height: 600px;">
                     <div  class="text-start" style="display: flex; margin-bottom: 15px;">
                         <p style="font-size: 50px; font-weight: bold; flex-grow: 1; ">예약 내역</p>
@@ -116,36 +116,30 @@
                         <input type="text" id="searchKeyword" placeholder="검색어 입력" style="width: 30%; height: 40px; border-radius: 5px; border: 1px solid #cccad4">
                         <button class="btn btn-primary" id="searchBtn" style="width: 10%;" >Search</button>
                     </div>
-                    <div>
-                        <div class="container mt-5">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <table class="table table-rounded table-striped border gy-7 gs-7" id="eventTable">
-                                        <thead id="eventThead" style="position: sticky; top: 0">
-                                        <tr class="fw-bold fs-6 text-gray-800 border-bottom border-gray-200">
-                                            <th>예약 번호</th>
-                                            <th>공연명</th>
-                                            <th>회원 아이디</th>
-                                            <th>결제 시간</th>
-                                            <th>관람 일자</th>
-                                            <th>예약인원 수</th>
-                                            <th>예매 금액</th>
-                                            <th>예약 취소</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody id="reservationTbody"></tbody>
-                                        </tbody>
-                                        <tfoot>
-                                        <tr>
-                                            <td colspan="16">
-                                                <ul class="pagination"></ul>
-                                            </td>
-                                        </tr>
-                                        </tfoot>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="custom-table-container">
+                        <table class="table table-rounded table-striped border gy-7 gs-7" id="eventTable">
+                            <thead id="eventThead" style="position: sticky; top: 0">
+                            <tr class="fw-bold fs-6 text-gray-800 border-bottom border-gray-200">
+                                <th>예약 번호</th>
+                                <th>공연명</th>
+                                <th>회원 아이디</th>
+                                <th>결제 시간</th>
+                                <th>관람 일자</th>
+                                <th>예약인원 수</th>
+                                <th>예매 금액</th>
+                                <th>예약 취소</th>
+                            </tr>
+                            </thead>
+                            <tbody id="reservationTbody"></tbody>
+                            </tbody>
+                            <tfoot>
+                            <tr>
+                                <td colspan="16">
+                                    <ul class="pagination"></ul>
+                                </td>
+                            </tr>
+                            </tfoot>
+                        </table>
                     </div>
                 </div>
             </div>
