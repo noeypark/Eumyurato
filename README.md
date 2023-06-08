@@ -36,7 +36,7 @@ Spring boot를 활용한 버스킹/소규모 공연과 지역축제 위치 기�
 
 ## :pushpin: 개발환경
 
-<img src="https://github.com/bomin1996/E114_Eumyurato/assets/126555995/38960ed8-06e3-4c31-a9c1-4bcb9a222796" width="50%">
+<img src="https://user-images.githubusercontent.com/121412330/241532102-e3eaf3f6-539f-4981-a38c-d32e9ab90992.png" width="70%">
 
 ## :pushpin: 구조도
 
